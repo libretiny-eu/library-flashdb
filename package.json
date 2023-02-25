@@ -1,0 +1,5 @@
+{
+  "name": "library-flashdb",
+  "version": "1.2.0",
+  "description": "An ultra-lightweight database that supports key-value and time series data"
+}
