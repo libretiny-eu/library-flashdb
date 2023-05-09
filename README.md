@@ -9,7 +9,7 @@ An ultra-lightweight database that supports key-value and time series data
 - [Upstream repository](https://github.com/armink/FlashDB)
 - [See all tags](https://github.com/libretiny-eu/library-flashdb/tags)
 - [See all files](https://github.com/libretiny-eu/library-flashdb/tree/platformio)
-- [Cleaned up files](https://github.com/libretiny-eu/library-flashdb/blob/actions/.github/workflows/platformio-package.yml#L68-76)
+- [Cleaned up files](https://github.com/libretiny-eu/library-flashdb/blob/actions/.github/workflows/platformio-library.yml#L68-76)
 
 ## Where is the code?
 
