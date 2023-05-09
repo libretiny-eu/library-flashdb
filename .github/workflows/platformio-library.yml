@@ -86,7 +86,7 @@ jobs:
           git tag ${{ env.version }}
           git remote set-url origin https://github.com/${{ github.repository }}
           git push --force origin platformio
-          git push origin ${{ env.version }}
+          git push --force origin ${{ env.version }}
 
       - name: Publish PlatformIO library
         env:
