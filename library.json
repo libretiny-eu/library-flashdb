@@ -1,0 +1,20 @@
+{
+	"name": "FlashDB",
+	"version": "2023.5.7",
+	"description": "An ultra-lightweight database that supports key-value and time series data",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/libretiny-eu/library-flashdb"
+	},
+	"build": {
+		"srcDir": ".",
+		"srcFilter": [
+			"+<src>"
+		],
+		"includeDir": ".",
+		"flags": [
+			"-I inc"
+		],
+		"extraScript": "extra_script.py"
+	}
+}
