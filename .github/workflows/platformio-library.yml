@@ -54,10 +54,11 @@ jobs:
         run: |
           echo version=$(date -d $(git log -1 --format=%cs) +%Y.%-m.%-d) >> $GITHUB_OUTPUT
 
-      - name: Write package.json and library.json
+      - name: Write package/library data
         run: |
           cp actions/package.json .
           cp actions/library.json .
+          cp actions/extra_script.py .
           sed -i s/VERSION/${{ inputs.version || steps.version.outputs.version }}/g package.json library.json
           rm -rf actions/
 

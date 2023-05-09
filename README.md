@@ -1,7 +1,7 @@
 # library-flashdb
 
 ![Latest tag](https://img.shields.io/github/v/tag/libretiny-eu/library-flashdb?label=latest%20tag)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/kuba2k2/library/FlashDB.svg)](https://registry.platformio.org/libraries/kuba2k2/FlashDB)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/libretiny-eu/library/FlashDB.svg)](https://registry.platformio.org/libraries/libretiny-eu/FlashDB)
 
 An ultra-lightweight database that supports key-value and time series data
 
