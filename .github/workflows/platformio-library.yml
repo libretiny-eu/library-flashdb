@@ -20,15 +20,15 @@ jobs:
     name: Deploy PlatformIO library
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          path: actions
       - name: Checkout upstream
         uses: actions/checkout@v3
         with:
           repository: armink/FlashDB
           ref: ${{ inputs.ref }}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: actions
 
       - name: Cache pip
         uses: actions/cache@v2
