@@ -79,7 +79,7 @@ jobs:
         env:
           version: ${{ inputs.version || steps.version.outputs.version }}
         run: |
-          git config --global user.email "gh-actions@libretiny.eu"
+          git config --global user.email "gh-actions@example.com"
           git config --global user.name "GitHub Actions"
           git add .
           git commit -m "[${{ env.version }}] Prepare PlatformIO package"

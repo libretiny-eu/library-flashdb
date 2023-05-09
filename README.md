@@ -1,7 +1,7 @@
 # library-flashdb
 
 ![Latest tag](https://img.shields.io/github/v/tag/libretiny-eu/library-flashdb?label=latest%20tag)
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/libretiny-eu/library/FlashDB.svg)](https://registry.platformio.org/libraries/libretiny-eu/FlashDB)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/kuba2k2/library/FlashDB.svg)](https://registry.platformio.org/libraries/kuba2k2/FlashDB)
 
 An ultra-lightweight database that supports key-value and time series data
 
@@ -9,7 +9,7 @@ An ultra-lightweight database that supports key-value and time series data
 - [Upstream repository](https://github.com/armink/FlashDB)
 - [See all tags](https://github.com/libretiny-eu/library-flashdb/tags)
 - [See all files](https://github.com/libretiny-eu/library-flashdb/tree/platformio)
-- [Cleaned up files](https://github.com/libretiny-eu/library-flashdb/blob/actions/.github/workflows/platformio-package.yml#L67-75)
+- [Cleaned up files](https://github.com/libretiny-eu/library-flashdb/blob/actions/.github/workflows/platformio-package.yml#L68-76)
 
 ## Where is the code?
 
