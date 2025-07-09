@@ -65,7 +65,7 @@ jobs:
       - name: Cleanup repository
         run: |
           git checkout -B platformio
-          mv inc/fdb_cfg.h inc/fdb_cfg.h.example
+          mv inc/fdb_cfg.h inc/fdb_cfg.h.example || true
           touch inc/fdb_cfg.h
           rm -rf .github/
           rm -rf demos/
@@ -74,6 +74,7 @@ jobs:
           rm -rf port/fal/samples/
           rm -rf samples/
           rm -rf tests/
+          rm -rf zephyr/
 
       - name: Commit and push changes
         env:
